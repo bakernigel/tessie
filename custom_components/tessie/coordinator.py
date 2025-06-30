@@ -10,7 +10,7 @@ from typing import TYPE_CHECKING, Any
 from aiohttp import ClientResponseError
 from tesla_fleet_api.exceptions import InvalidToken, MissingToken, TeslaFleetError
 from tesla_fleet_api.tessie import EnergySite
-from .tessie_api import get_state, get_status
+from tessie_api import get_state, get_status
 
 from homeassistant.core import HomeAssistant
 from homeassistant.exceptions import ConfigEntryAuthFailed

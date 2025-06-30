@@ -7,7 +7,7 @@ from http import HTTPStatus
 from typing import Any
 
 from aiohttp import ClientConnectionError, ClientResponseError
-from .tessie_api import get_state_of_all_vehicles
+from tessie_api import get_state_of_all_vehicles
 import voluptuous as vol
 
 from homeassistant.config_entries import ConfigFlow, ConfigFlowResult

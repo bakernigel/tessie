@@ -7,7 +7,7 @@ from dataclasses import dataclass
 from itertools import chain
 from typing import Any
 
-from .tessie_api import (
+from tessie_api import (
     disable_sentry_mode,
     disable_valet_mode,
     enable_sentry_mode,

@@ -5,7 +5,7 @@ from __future__ import annotations
 from itertools import chain
 from typing import Any
 
-from .tessie_api import (
+from tessie_api import (
     close_charge_port,
     close_sunroof,
     close_windows,

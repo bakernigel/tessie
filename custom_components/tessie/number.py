@@ -8,7 +8,7 @@ from itertools import chain
 from typing import Any
 
 from tesla_fleet_api.tessie import EnergySite
-from .tessie_api import set_charge_limit, set_charging_amps, set_speed_limit
+from tessie_api import set_charge_limit, set_charging_amps, set_speed_limit
 
 from homeassistant.components.number import (
     NumberDeviceClass,

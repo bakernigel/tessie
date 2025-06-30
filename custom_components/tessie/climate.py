@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from typing import Any
 
-from .tessie_api import (
+from tessie_api import (
     set_climate_keeper_mode,
     set_temperature,
     start_climate_preconditioning,

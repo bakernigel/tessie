@@ -5,7 +5,7 @@ from __future__ import annotations
 from collections.abc import Callable
 from dataclasses import dataclass
 
-from .tessie_api import (
+from tessie_api import (
     boombox,
     enable_keyless_driving,
     flash_lights,
